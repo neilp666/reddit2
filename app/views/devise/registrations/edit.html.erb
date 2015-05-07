@@ -4,8 +4,10 @@
 <h2 class="text-center">Edit Details</h2>
   <%= devise_error_messages! %>
 
+
+    <%= f.input :name, required: true, autofocus: true, label: false, placeholder: "Name", input_html: {class: "form-control"} %>
   
-    <%= f.input :email, required: true, autofocus: true, label: false, placeholder: "Email", input_html: {class: "form-control"} %>
+    <%= f.input :email, required: true, label: false, placeholder: "Email", input_html: {class: "form-control"} %>
    
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
