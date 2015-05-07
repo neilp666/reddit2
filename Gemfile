@@ -13,5 +13,6 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
+gem 'acts_as_votable', '~> 0.10.0'
 
 
